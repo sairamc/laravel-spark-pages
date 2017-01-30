@@ -66,6 +66,7 @@ class PageController extends Controller {
      */
     public function edit($slug)
     {
+        $slug = $this->formatSlugForQuery($slug, null);
         $page = Page::whereSlug($slug)->firstOrFail();
         return view('vendor.laravel-spark-pages.create_edit', compact(['page']));
     }
