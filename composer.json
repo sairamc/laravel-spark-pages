@@ -1,5 +1,5 @@
 {
-    "name": "kirschbaum/laravel-spark-pages",
+    "name": "sairamc/laravel-spark-pages",
     "description": "Easy CMS-like page creation and editing for Laravel Spark",
     "type": "library",
     "authors": [
